@@ -1,0 +1,385 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: white;
+}
+
+
+#navicon {
+    border: none;
+    padding: 20px 40px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    align-self: flex-end;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 25%;
+}
+
+/* ---------------- Style the navigation bar --------------*/
+
+nav {
+    text-align: right;
+    font-family: sans-serif;
+    position: fixed;
+    width: 100%;
+    top:0;
+    padding-top: 15px;
+    transition: background-color 0.4s ease-out;
+}
+
+nav.scroll {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 20px;
+}
+
+nav.scroll .logo {
+    content:url("img/logo2.png");
+}
+
+nav.scroll a {
+    font-size: 16px;
+    color: black;
+}
+
+
+nav a {
+    font-size: 1em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    padding: 20px 25px;
+}
+
+nav a:hover {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+/* ---------------- Style the main container --------------*/
+
+
+#conteneur {
+    height: 722px;
+    background-image: url("img/fond.png");
+    background-color: #142035;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.cobutt {
+    margin: 50px 0px 20px 0px;
+    text-align: center;
+}
+
+
+h1 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+h2 {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+}
+
+.maintitle {
+    margin-top: 250px;
+    margin-bottom: 10px;
+}
+
+.secondtitle {
+    margin-top: 8px;
+    text-align: center;
+    padding: 0 40px;
+    font-size: 1.1em;
+}
+
+.already {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    font-size: 0.8em;
+    color: white;
+    margin: 0 auto;
+    margin-top: -15px;
+} 
+
+.already:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 800px;
+    max-width: 100%;
+    height:auto;
+    background-color: #1D2ECC;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+}
+
+.t1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    padding: 0 25px;
+    margin-bottom: 0px;
+}
+
+.t1s {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    padding: 0 25px;
+    margin-bottom: 0px;
+}
+
+.t2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    padding: 0 25px;
+}
+
+.profil {
+    margin-right: 10%;
+}
+
+
+/* ----------------- Style du bloc photo 'talent"   -------------------*/
+
+#bloctalent {
+    height: 800px;
+    margin-bottom: 15%;
+    background-image: url("img/img2.jpg");
+    background-color: #142035;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#elodie {
+    margin-top: 400px;
+    margin-right: 40%;
+    height: 265px;
+    width: 400px;
+    max-width: 100%;
+    background-color: black;
+}
+
+#blocteam {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imgbob {
+    width: 800px;
+    max-width: 100%;
+    height: 600px;
+    margin-left: 10%;
+    background-image: url("img/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#equipe {
+    height: auto;
+    width: 400px;
+    max-width: 100%;
+    background-color: black;
+    padding: 15px 25px 35px 25px;
+}
+
+/* ----------------- Style des différents boutons  -------------------*/
+
+.btn1 {
+    border: 0px solid white;
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+    background-color: white;
+    border-radius: 60px;
+    padding: 15px 40px;
+    margin-bottom: 15px; 
+    cursor: pointer;
+}
+
+.btn1:active {
+    background-color: #F0F0F0;
+    color: #505050;
+}
+
+
+.btn2 {
+    border: 0px solid white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    color: white;
+    background-color: #1D2ECC;
+    border-radius: 60px;
+    padding: 15px 60px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.btn2:active {
+    background-color: #171B9F;
+}
+
+
+.btn3 {
+    border: 0px solid white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #1D2ECC;
+    background-color: white;
+    border-radius: 60px;
+    padding: 15px 60px;
+    cursor: pointer;
+}
+
+.btn3:active {
+    background-color: #cfd4f8;
+}
+
+.btn4 {
+    border: 0px solid white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    background-color: #1D2ECC;
+    border-radius: 60px;
+    padding: 15px 60px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.btn4:active {
+    background-color: #171B9F;
+}
+/* ----- Enlève la bordure moche autour des buttons et liens cliquables ----- */
+
+*:focus {
+    outline: none;
+}
+
+/* ----- Footer ----- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: lighter;
+    color: #A9A9A9;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+/* -----------------Style the CSS according to responsive web design -----------*/
+
+@media screen and (max-width: 500px) {
+
+.maintitle {
+    margin-top: 150px;
+    font-size: 2.5em;}
+
+footer {
+    height: 350px;}
+}
+
+
+
+
+@media screen and (max-width: 680px) {
+    #navbar {
+        display: none;}
+
+    .maintitle {
+        margin-top: 100px;
+    }
+
+    #elodie {
+        margin-right: 0;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+
+    .imgbob {
+        margin: 0;
+        height: 320px;
+    }
+
+    .t1s {
+        padding-right: 90px;
+    }
+
+    #blocteam {
+        margin-top: 15%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .btn2 {
+    margin-left: 1%;
+}
+
+.cobutt {
+    margin: 50px 0px 20px 0px;
+}
+
+
+}
+
+@media screen and (min-width: 681px) {
+
+    #navicon {
+        display: none;
+    }
+}
