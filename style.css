@@ -322,7 +322,7 @@ footer {
 
 /* -----------------Style the CSS according to responsive web design -----------*/
 
-@media screen (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
 .maintitle {
     margin-top: 150px;
@@ -335,7 +335,7 @@ footer {
 
 
 
-@media screen (max-width: 680px) {
+@media screen and (max-width: 680px) {
     #navbar {
         display: none;}
 
@@ -375,7 +375,7 @@ footer {
     }
 }
 
-@media screen (min-width: 681px) {
+@media screen and (min-width: 681px) {
 
     #navicon {
         display: none;
