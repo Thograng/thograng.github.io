@@ -330,8 +330,8 @@ footer {
 
 footer {
     height: 350px;}
+    }
 }
-
 
 
 
@@ -368,13 +368,11 @@ footer {
 
     .btn2 {
     margin-left: 1%;
-}
+    }
 
-.cobutt {
+    .cobutt {
     margin: 50px 0px 20px 0px;
-}
-
-
+    }
 }
 
 @media screen and (min-width: 681px) {
