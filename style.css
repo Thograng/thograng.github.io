@@ -253,6 +253,7 @@ h2 {
 .btn2 {
     border: 0px solid white;
     display: block;
+    white-space: nowrap;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1em;
     color: white;
