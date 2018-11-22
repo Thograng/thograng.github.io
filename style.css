@@ -72,6 +72,83 @@ nav a.active {
 /* ---------------- Style the main container --------------*/
 
 
+#headerproj {
+    height: 320px;
+    background-image: url("img/img3.jpg");
+    background-color: #1a1a1a;
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+#conteneur-body {
+    display: flex;
+    height: auto;
+}
+
+#bloc-gris {
+    background-color: #333333;
+    width: 350px;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-top: 30px;
+}
+
+#bloc-blanc {
+    background-color: #f2f2f2;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.project {
+    margin-left: 5%;
+    margin-top: 45px;
+}
+
+.fiona {
+    height: 320px;
+    width: 80%;
+    background-image: url("img/img4.jpg");
+    background-color: #1a1a1a;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title-pro {
+    color: #333333;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400i;
+    font-size: 2em;
+
+}
+
+.sidetitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.checkbox-txt {
+    font-family: 'Fira Sans', sans-serif;
+    display: inline;
+    color: #b3b3b3;
+    font-weight: 300;
+}
+
+input {
+    margin-bottom: 12px;
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+}
+
 #conteneur {
     height: 722px;
     background-image: url("img/fond.png");
@@ -103,6 +180,31 @@ h1 {
 
 h2 {
     color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+}
+
+
+.header-title {
+    margin-top: 150px;
+    font-size: 3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+}
+
+.title-vid {
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+}
+
+
+
+.titre-deux {
+    color: #505050;
+    font-size: 1em;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
 }
@@ -177,6 +279,51 @@ h2 {
     margin-right: 10%;
 }
 
+.titre-simple {
+    color: rgb(20,35,150);
+    margin-bottom: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+#inputstyle {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    width: 330px;
+    max-width: 82%;
+    height: 30px;
+    margin: 5px 0 5px 0;
+}
+
+::placeholder { 
+    color: #bfbfbf;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    opacity: 1; 
+}
+
+#blocco {
+    height: 380px;
+    width: 800px;
+    max-width: 85%;
+    padding-left: 35px;
+    margin-top: 150px;
+    padding-top: 20px;
+    background-color: #F5F5F5;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
 
 /* ----------------- Style du bloc photo 'talent"   -------------------*/
 
@@ -232,6 +379,7 @@ h2 {
 /* ----------------- Style des différents boutons  -------------------*/
 
 .btn1 {
+    text-decoration: none;
     border: 0px solid white;
     display: block;
     font-size: 1em;
@@ -251,6 +399,7 @@ h2 {
 
 
 .btn2 {
+    text-decoration: none;
     border: 0px solid white;
     display: block;
     white-space: nowrap;
@@ -270,6 +419,7 @@ h2 {
 
 
 .btn3 {
+    text-decoration: none;
     border: 0px solid white;
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
@@ -333,6 +483,10 @@ footer {
 
 footer {
     height: 350px;}
+
+#blocco {
+    margin-top: 50px;}
+
 }
 
 
@@ -369,6 +523,23 @@ footer {
 
     .cobutt {
     margin: 50px 0px 20px 0px;}
+
+    #blocco {
+    margin-top: 50px;}
+
+    #bloc-gris {
+    display: none;
+    }
+
+    .fiona {
+    width: 95%;
+    }
+
+    .header-title {
+    margin-top: 80px;
+    font-size: 2em;
+    text-align: center;
+    }
 }
 
 
