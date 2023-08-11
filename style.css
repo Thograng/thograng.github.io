@@ -131,11 +131,11 @@ ul.breadcrumb li a:hover {
 
 
 #headerprofil {
-    height: auto;
+    height: 720px;
     background-image: url("img/img5.jpg");
     background-color: #1a1a1a;
-    background-size: cover;
-    background-position: center;
+    background-size: 130%;
+    background-repeat: no-repeat;
 
     display: flex;
     flex-direction: column;
@@ -143,13 +143,12 @@ ul.breadcrumb li a:hover {
 }
 
 .blocpic {
-    height: auto;
     width: 800px;
-    max-width: 70%;
     margin: 0 auto;
     padding: 3% 10%;
     background-color: #f2f2f2;
-    margin-bottom: 5%;
+    max-width:80%;
+    height: auto;
 }
 
 .test {
@@ -158,17 +157,8 @@ ul.breadcrumb li a:hover {
     font-family: 'Fira Sans', sans-serif;
     font-size: 1em;
     padding: 0 auto;
-}
 
-.testtitre {
-    display: inline;
-    color: #333333;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 2em;
-    font-weight: 700;
-    padding: 0 auto;
 }
-
 
 .profilpic {
     display: inline;
@@ -231,8 +221,7 @@ ul.breadcrumb li a:hover {
 
 .brasier {
     height: 320px;
-    width: 550px;
-    max-width: 95%;
+    width: 50%;
     background-image: url("img/img6.jpg");
     background-color: #1a1a1a;
     background-size: cover;
@@ -240,14 +229,10 @@ ul.breadcrumb li a:hover {
     background-repeat: no-repeat;
 }
 
-.brasier:hover {
-  opacity: 0.8;
-}
-
 .title-pro {
     color: #333333;
     font-family: 'Lora', sans-serif;
-    font-weight: 400i;
+    font-weight: 400;
     font-size: 2em;
 
 }
@@ -263,11 +248,6 @@ ul.breadcrumb li a:hover {
     display: inline;
     color: #b3b3b3;
     font-weight: 300;
-}
-
-.checkbox-txt:hover {
-    color: #8c8c8c;
-    cursor: pointer;
 }
 
 input {
@@ -356,7 +336,7 @@ h2 {
     font-size: 0.8em;
     color: white;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: -15px;
 } 
 
 .already:hover {
@@ -418,7 +398,6 @@ h2 {
     font-weight: 300;
     font-size: 1em;
     padding: 0 25px;
-    margin-bottom: 30px;
 }
 
 
@@ -483,7 +462,7 @@ h2 {
 
 #bloctalent {
     height: 800px;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     background-image: url("img/img2.jpg");
     background-color: #142035;
     background-size: cover;
@@ -499,11 +478,10 @@ h2 {
 #elodie {
     margin-top: 400px;
     margin-right: 40%;
-    height: 250px;
+    height: 265px;
     width: 400px;
     max-width: 100%;
     background-color: black;
-    padding-left: 20px;
 }
 
 #blocteam {
@@ -543,12 +521,11 @@ h2 {
     background-color: white;
     border-radius: 60px;
     padding: 15px 40px;
-    margin-bottom: 12%; 
+    margin-bottom: 15px; 
     cursor: pointer;
 }
 
-
-.btn1:hover {
+.btn1:active {
     background-color: #F0F0F0;
     color: #505050;
 }
@@ -569,7 +546,7 @@ h2 {
     cursor: pointer;
 }
 
-.btn2:hover {
+.btn2:active {
     background-color: #171B9F;
 }
 
@@ -585,13 +562,10 @@ h2 {
     border-radius: 60px;
     padding: 15px 60px;
     cursor: pointer;
-    transition-duration: 0.3s;
-
 }
 
-
-.btn3:hover {
-    background-color: #e1e2fb;
+.btn3:active {
+    background-color: #cfd4f8;
 }
 
 .btn4 {
@@ -605,16 +579,12 @@ h2 {
     border-radius: 60px;
     padding: 15px 60px;
     cursor: pointer;
+    margin-left: 25px;
     margin-top: 20px;
-    transition-duration: 0.3s;
 }
 
 .btn4:active {
     background-color: #171B9F;
-}
-
-.btn4:hover {
-    background-color: #15188e;
 }
 /* ----- Enlève la bordure moche autour des buttons et liens cliquables ----- */
 
@@ -722,9 +692,7 @@ footer {
     #elodie {
         margin-right: 0;
         height: auto;
-        padding-bottom: 25px;
-        border-bottom: solid black 25px;
-    }
+        padding-bottom: 25px;}
 
 
     .imgbob {
@@ -744,8 +712,7 @@ footer {
     margin-left: 1%;}
 
     .cobutt {
-    margin: 50px 0px 20px 0px;
-    }
+    margin: 50px 0px 20px 0px;}
 
     #blocco {
     margin-top: 50px;}
