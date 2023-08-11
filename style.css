@@ -184,6 +184,19 @@ ul.breadcrumb li a:hover {
     align-items: center;
 }
 
+#headertal {
+    height: 320px;
+    background-image: url("img/img9.jpg");
+    background-color: #1a1a1a;
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
 #conteneur-body {
     display: flex;
@@ -213,6 +226,16 @@ ul.breadcrumb li a:hover {
     height: 320px;
     width: 80%;
     background-image: url("img/img4.jpg");
+    background-color: #1a1a1a;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.malika {
+    height: 320px;
+    width: 80%;
+    background-image: url("img/img8.png");
     background-color: #1a1a1a;
     background-size: cover;
     background-position: center;
@@ -509,7 +532,21 @@ h2 {
     padding: 15px 25px 35px 25px;
 }
 
-/* ----------------- Style des différents boutons  -------------------*/
+.talents {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+}
+
+.talent--cat { 
+    width: 220px;
+    height: 280px;
+    margin: 20px 12px;
+    background-color: #a6a6a6;
+    text-align: center;
+}
+
+/* ----------------- Style des diffÃ©rents boutons  -------------------*/
 
 .btn1 {
     text-decoration: none;
@@ -586,7 +623,8 @@ h2 {
 .btn4:active {
     background-color: #171B9F;
 }
-/* ----- Enlève la bordure moche autour des buttons et liens cliquables ----- */
+
+/* ----- EnlÃ¨ve la bordure moche autour des buttons et liens cliquables ----- */
 
 *:focus {
     outline: none;
@@ -777,5 +815,4 @@ footer {
     padding-right: 20%;
 }
 }
-
 
