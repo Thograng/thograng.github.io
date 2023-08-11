@@ -134,7 +134,7 @@ ul.breadcrumb li a:hover {
     height: 720px;
     background-image: url("img/img5.jpg");
     background-color: #1a1a1a;
-    background-size: 130%;
+    background-size: cover;
     background-repeat: no-repeat;
 
     display: flex;
@@ -174,7 +174,7 @@ ul.breadcrumb li a:hover {
     height: 320px;
     background-image: url("img/img3.jpg");
     background-color: #1a1a1a;
-    background-size: 130%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -188,7 +188,7 @@ ul.breadcrumb li a:hover {
     height: 320px;
     background-image: url("img/img9.jpg");
     background-color: #1a1a1a;
-    background-size: 130%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -546,7 +546,7 @@ h2 {
     text-align: center;
 }
 
-/* ----------------- Style des diffÃ©rents boutons  -------------------*/
+/* ----------------- Style des différents boutons  -------------------*/
 
 .btn1 {
     text-decoration: none;
@@ -624,7 +624,7 @@ h2 {
     background-color: #171B9F;
 }
 
-/* ----- EnlÃ¨ve la bordure moche autour des buttons et liens cliquables ----- */
+/* ----- Enlève la bordure moche autour des buttons et liens cliquables ----- */
 
 *:focus {
     outline: none;
@@ -815,4 +815,5 @@ footer {
     padding-right: 20%;
 }
 }
+
 
