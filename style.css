@@ -4,7 +4,6 @@ body {
     color: white;
 }
 
-
 #navicon {
     border: none;
     padding: 20px 40px;
@@ -20,7 +19,6 @@ body {
     height: auto;
     padding-right: 25%;
 }
-
 
 /* ---------------- Style the navigation bar --------------*/
 
@@ -53,7 +51,6 @@ nav.scroll a {
     font-size: 16px;
     color: black;
 }
-
 
 nav a {
     font-size: 1em;
@@ -131,7 +128,6 @@ ul.breadcrumb li a:hover {
 
 
 #headerprofil {
-    height: 720px;
     background-image: url("img/img5.jpg");
     background-color: #1a1a1a;
     background-size: cover;
@@ -214,17 +210,17 @@ ul.breadcrumb li a:hover {
 #bloc-blanc {
     background-color: #f2f2f2;
     width: 100%;
-    padding-bottom: 150px;
 }
 
 .project {
     margin-left: 5%;
-    margin-top: 45px;
+    margin-top: 45px;margin: 45px 5% 0 5%;
 }
 
 .fiona {
     height: 320px;
-    width: 80%;
+    width: 800px;
+    max-width: 100%;
     background-image: url("img/img4.jpg");
     background-color: #1a1a1a;
     background-size: cover;
@@ -234,7 +230,8 @@ ul.breadcrumb li a:hover {
 
 .malika {
     height: 320px;
-    width: 80%;
+    width: 800px;
+    max-width: 100%;
     background-image: url("img/img8.png");
     background-color: #1a1a1a;
     background-size: cover;
@@ -244,7 +241,8 @@ ul.breadcrumb li a:hover {
 
 .brasier {
     height: 320px;
-    width: 50%;
+    width: 600px;
+    max-width: 100%;
     background-image: url("img/img6.jpg");
     background-color: #1a1a1a;
     background-size: cover;
@@ -254,7 +252,7 @@ ul.breadcrumb li a:hover {
 
 .title-pro {
     color: #333333;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 2em;
 
@@ -390,7 +388,7 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
 
-    width: 80%;
+    width: 800px;
     max-width: 100%;
     height:auto;
     background-color: #1D2ECC;
@@ -421,6 +419,7 @@ h2 {
     font-weight: 300;
     font-size: 1em;
     padding: 0 25px;
+    margin-bottom: 40px;
 }
 
 
@@ -546,6 +545,10 @@ h2 {
     text-align: center;
 }
 
+.h2-grid {
+    margin-top: 90%;
+}
+
 /* ----------------- Style des différents boutons  -------------------*/
 
 .btn1 {
@@ -624,7 +627,7 @@ h2 {
     background-color: #171B9F;
 }
 
-/* ----- Enlève la bordure moche autour des buttons et liens cliquables ----- */
+/* ----- Enlève la bordure autour des buttons et liens cliquables ----- */
 
 *:focus {
     outline: none;
@@ -639,9 +642,7 @@ footer {
     font-family: 'Fira Sans', sans-serif;
     font-weight: lighter;
     color: #A9A9A9;
-    width: 100%;
-    height: auto;
-    padding: 30px 0;
+    padding: 30px 10%;
     background-color: black;
 }
 
@@ -663,6 +664,7 @@ footer {
     text-align: center;
     flex-wrap: inherit;
     width: 300px;
+    padding: 0 20%;
     /*background-color: #1a1a1a;*/
 }
 
@@ -692,7 +694,7 @@ footer {
     text-decoration: none;
     font-weight: 700;
     color: white;
-    padding: 5px 25px;
+    padding: 7px 25px;
     background-color: #1D2ECC;
 }
 
@@ -700,24 +702,22 @@ footer {
     background-color: #171B9F;
 }
 
-/* -----------------Style the CSS according to responsive web design -----------*/
+/* ----------------- Style the CSS according to responsive web design -----------*/
+@media screen and (max-width: 981px) {
+    .logo {
+        padding-right: 6%;
+    }
 
-@media screen and (max-width: 500px) {
-
-.maintitle {
-    margin-top: 150px;
-    font-size: 2.5em;}
-
-footer {
-    height: 350px;}
-
-#blocco {
-    margin-top: 50px;}
-
+    #navbar a:last-child {
+        margin-right: 5%;
+    }
 }
 
-
-
+@media screen and (max-width: 780px) {
+    .logo {
+        padding-right: 2%;
+    }
+}
 
 @media screen and (max-width: 680px) {
 
@@ -763,57 +763,69 @@ footer {
     width: 95%;
     }
 
-    .sign2 {
-    width: 95%;
-    }
-
     .header-title {
     margin-top: 80px;
     font-size: 2em;
     text-align: center;
     }
+
+    ul.breadcrumb {
+        margin-left: 3%;
+    }
 }
 
+@media screen and (max-width: 500px) {
+
+    .maintitle {
+        margin-top: 150px;
+        font-size: 2.5em;}
+
+    footer {
+        height: 350px;}
+
+    #blocco {
+        margin-top: 50px;}
+
+
+        .trio-footer {
+            padding: 0 0;
+        }
+}
+
+@media screen and (max-width: 542px) {
+
+    .talent--cat { 
+        width: 100%;
+        height: 280px;
+        text-align: center;
+        }
+
+    .h2-grid { 
+        margin-top: 200px;
+    }
+}
 
 @media screen and (max-width: 395px) {
-.sign2 {margin-top: 150px;}
-}
+    .sign2 {margin-top: 150px;}
+    }
 
 @media screen and (max-width: 340px) {
-.sign2 {margin-top: 200px;}
-}
-
-@media screen and (min-width: 681px) {
-#navicon {display: none;}
-}
-
-
-@media screen and (max-width: 981px) {
-.logo {
-    padding-right: 6%;
-}
-
-#navbar a:last-child {
-    margin-right: 5%;
-}
-}
-
-@media screen and (max-width: 780px) {
-.logo {
-    padding-right: 2%;
-}
-}
+    .sign2 {margin-top: 200px;}
+    }
+/* ---------------------------------- Min width ---------------------------------*/
 
 @media screen and (min-width: 982px) and (max-width: 1200px) {
-.logo {
+    .logo {
     padding-right: 15%;
-}
+    }
 }
 
 @media screen and (min-width: 1200px) {
-.logo {
+    .logo {
     padding-right: 20%;
-}
+    }
 }
 
-
+@media screen and (min-width: 681px) {
+    #navicon {display: none;}
+    }
